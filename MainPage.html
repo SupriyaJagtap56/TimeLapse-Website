@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+	background: url('Screenshot (403).png')no-repeat;
+	    background-size:cover; 
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+<script language="javascript" text="text/javascript">
+function hyder(elevalue){
+	with(document.forms.state){
+		if(elevalue==1){
+			var mywindow=window.open("0_hydrabad.html","hydrabad")
+		}
+	}
+}
+function ben(elevalue){
+	with(document.forms.state){
+		if(elevalue==2){
+			var mywindow=window.open("0_bengluru.html","Bengluru")
+		}
+	}
+}
+function kol(elevalue){
+	with(document.forms.state){
+		if(elevalue==3){
+			var mywindow=window.open("0_kolkata.html","Kolkata")
+		}
+	}
+}
+function delhi(elevalue){
+	with(document.forms.state){
+		if(elevalue==4){
+			var mywindow=window.open("0_delhi.html","Delhi")
+		}
+	}
+}
+function mumbai(elevalue){
+	with(document.forms.state){
+		if(elevalue==5){
+			var mywindow=window.open("0_mumbai.html","Mumbai")
+		}
+	}
+}
+function pune(elevalue){
+	with(document.forms.state){
+		if(elevalue==6){
+			var mywindow=window.open("0_pune.html","Pune")
+		}
+	}
+}
+</script>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Timelapse</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem"><a href="MainPage.html">Home</a></div>
+ <div class="menuitem"><a href="booking.html">Booking</a></div>
+<div class="menuitem"><a href="reviews.html">Feedback</a></div>
+    <div class="menuitem"><a href="contact.html">About</a></div>
+     </div>
+
+  <div class="main">
+    <h2>Enjoy interesting pictures of your favourite CITY in India</h2>
+<form name=state>
+  <h2>Select your favourite state</h2><br>
+<input type="radio" name="sname" checked="true" value=1 onclick="hyder(this.value)">Hyderabad<br><br>
+<input type="radio" name="sname" checked="true" value=2 onclick="ben(this.value)">Bangalore<br><br>
+<input type="radio" name="sname" checked="true" value=3 onclick="kol(this.value)">Kolkata<br><br>
+<input type="radio" name="sname" checked="true" value=4 onclick="delhi(this.value)">New Delhi<br><br>
+<input type="radio" name="sname" checked="true" value=5 onclick="mumbai(this.value)">Mumbai<br><br>
+<input type="radio" name="sname" checked="true" value=6 onclick="pune(this.value)">Pune<br><br>
+</forms>
+</div>
+
+ <div class="right">
+    <h2>Tourism  Activities</h2>
+    <p>City special,fresh,delicious food to eat everyday</p>
+    <h2>Discount</h2>
+    <p>Appropriate discount on accomodaton facility!</p>
+    <h2>Price</h2>
+    <p>In affortable rates!</p>
+  </div>
+</div>
+
+
+</div>
+</body>
+</html>

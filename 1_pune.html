@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+p.b { 
+    word-spacing: 30px;
+}
+</style>
+<title>Static Status Bar Message</title>
+<script language="Javascript" type="text/javascript">
+window.status='Trade secrets are revealed in the Demystified Series.'
+function OpenNewWindow(book) {
+if (book== 1)
+{
+document.cover.src='IMG_20180831_082609.jpg'
+MyWindow = window.open('', 'myAdWin', 'titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('Shaniwar wada in 1947')
+}
+if (book== 2)
+{
+document.cover.src='IMG_20180831_082718.jpg'
+MyWindow = window.open('', 'myAdWin', 'titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('Krishi Vidyapeeth in 1947')
+}
+if (book== 3)
+{
+document.cover.src='IMG_20180831_082449.jpg'
+MyWindow = window.open('', 'myAdWin','titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('College of Engineering Pune in 1854')
+}
+if (book== 4)
+{
+document.cover.src='IMG_20180831_082425.jpg'
+MyWindow = window.open('', 'myAdWin','titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('75 years ago Pune Station')
+}
+if (book== 5)
+{
+document.cover.src='IMG_20180831_082405.jpg'
+MyWindow = window.open('', 'myAdWin','titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('80 years ago Sassoon Hospital ')
+}
+if (book== 6)
+{
+document.cover.src='IMG_20180831_082518.jpg'
+MyWindow = window.open('', 'myAdWin','titlebar=0,resizable=0,height=50, width=150,left=400,top=500')
+MyWindow.document.write('In 1961 Senapati Bapat Road')
+}
+}
+</script>
+</head>
+<body>
+<TABLE width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD width=50>
+<a>
+<IMG  src="IMG_20180831_082609.jpg" height=400 width=500 border=0 name='cover'>
+</a>
+</TD>
+</TR>
+<TR>
+<TD>
+<IMG height=1 src="" width=5>
+</TD>
+</TR>
+<TR>
+<TD>
+<A onmouseover="OpenNewWindow(1)" onmouseout="MyWindow.close()">
+<B><U>1) Shaniwarwada</U></B>
+</A>
+<BR>
+<A onmouseover="OpenNewWindow(2)" onmouseout="MyWindow.close()">
+2) Krishi Vidyapeeth
+</A>
+<A onmouseover="OpenNewWindow(3)" onmouseout="MyWindow.close()">
+3) COEP
+</A>
+<A onmouseover="OpenNewWindow(4)" onmouseout="MyWindow.close()">
+4) Pune Station
+</A>
+<BR><BR>
+<A onmouseover="OpenNewWindow(5)" onmouseout="MyWindow.close()">
+5) Sassoon Hospital
+</A>
+<A onmouseover="OpenNewWindow(6)" onmouseout="MyWindow.close()">
+6) Senapati Bapat Road 
+</A>
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+</body>
+</html>

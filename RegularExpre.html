@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Simple Regular Expression</title>
+<script language="Javascript" type="text/javascript">
+function RegExpression() {
+var re = /^[\(]?(\d{3})[\)]?[ -\.]?(\d{3})[ -\.]?(\d{4})$/
+if(re.test(form1.phone.value))
+{
+MyArray = re.exec(form1.phone.value)
+alert("Area code: " + MyArray[0])
+}
+else{
+	alert("Invalid number")
+}
+}
+</script>
+</head>
+<body>
+<FORM name="form1">
+<P>
+<INPUT type="text" name="phone">
+<INPUT name="Run Reg Expression" value=" Run Reg Expression "type="button" onclick="RegExpression()"/>
+</P>
+</FORM>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<style>
+body{
+	background: url('Screenshot (405).png')no-repeat;
+	    background-size:cover; 
+}
+</style>
+<TITLE>1st Javascript Practical</TITLE>
+<SCRIPT>
+function RegExpression() 
+{
+var re = /^[\(]?(\d{3})[\)]?[ -\.]?(\d{3})[ -\.]?(\d{4})$/
+if(re.test(CookieWriter.phone.value))
+{
+MyArray = re.exec(CookieWriter.phone.value)
+alert("Phone no: " + MyArray[0]+"\nWe will use only for privacy settings")
+}
+else{
+	alert("Invalid phone no")
+}
+}
+function WriteCookie()
+{
+with (document.CookieWriter)
+{
+document.cookie ="CustomerName="+ customer.value+";"
+alert("Cookie Written")
+}
+}
+</SCRIPT>
+</HEAD>
+<BODY 
+                 align="center"
+	text="black"
+                 ><br>
+<marquee behavior="alternate" direction="left" scrollamount="15">
+<H1>Please Login for better experience</H1>
+</marquee>
+<FORM name="CookieWriter" action="">
+First Name<input type="text" >
+<br><br>
+Last Name<input type="text">
+<br><br>
+Phone No.<input type ="text" name="phone">
+<br><br>
+E-mail<input type="text" name="customer" onchange="WriteCookie()"/><br><br>
+<H4>Password</H4><input type="password"><br>
+<H4>Confirm Password</H4><input type="password"><br><br>
+<input type="button" name="submit" value="submit" onclick="RegExpression()"><br><br>
+<a href="MainPage.html"><img src="Screenshot (400).png" style="width:100px;height:50px" 
+onclick="javascript:document.forms.Contact.submit()"/></a>
+<a href="MainPage.html"><img src="Screenshot (398).png" style="width:100px;height:50px" 
+onclick="javascript:document.forms.Contact.submit()"/></a>
+</FORM>
+</BODY>
+</HTML>
+
+  

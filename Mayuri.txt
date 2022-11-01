@@ -1,0 +1,152 @@
+Please enter your roll number as given in Lila Poonawalla Foundation id card *
+
+Please select year of joining scholarship
+
+Please write your full name (First name, Middle name and Last name) *
+
+Please select stream that you have studied
+
+Please write name of course specialisation (For Engineering you may write Computer Science, Me... Show more) *
+
+Please explain how your scores have changed year by year from the first semester to last semester (Please limit answer to three sentences) *
+
+Please select whether your hometown is in a rural area or urban area *
+ Rural
+Urban
+What was your average attendance in the last academic session? (In %) *
+
+Was it more than your average attendance in the first year session? *
+ Yes
+No
+Has your parent's / family member's encouragement for completing your course changed from before? *
+ Increase
+Decrease
+Same
+Have you observed any change in the attitude of the society towards your education now? *
+ Yes
+No
+Are you actively involved in making a decision for the Family? *
+ Yes
+No
+Are you married? *
+ Yes
+No
+Do you have siblings/cousins? *
+ Yes
+No
+Do your parents or other elder family members have formal education? *
+ Yes
+No
+Have they (parents/family) supported you in pursuing education? *
+ Yes
+No
+Do you feel girls in your community look at you as a role model? *
+ Yes
+No
+Have you motivated or helped any girl to take up skill development courses or for their course continuation? *
+ Yes
+No
+Do students approach you for career guidance? *
+ Yes
+No
+Have you ever been invited to your school / college to motivate the girls studying there? *
+ Yes
+No
+Are you preparing for any Competitive exams? *
+ Yes
+No
+Is there any change in what you want to do after your course is completed? (Example- If previously you wanted to go for Higher... Show more) *
+ Yes
+No
+In which field or department would you like to work? *
+
+Do you think the course you are studying is sufficient for your future plan? *
+ Yes
+No
+Have you participated in any extracuricullar activity / sports during college? *
+ Yes
+No
+Do you speak in English? *
+ Yes
+No
+Please rate how fluent is your English (1 is low and 5 is high) *
+ 1
+2
+3
+4
+5
+With whom do you use it? *
+
+Did you attend the training courses organised by LPF? *
+ Yes
+No
+Please rate your cofidence level in speaking in English on a scale of 1 to 5 (1 is low and 5 is high) *
+ 1
+2
+3
+4
+5
+Please rate your cofidence level in writing letters or emails in English (1 is low and 5 is high) *
+ 1
+2
+3
+4
+5
+Are you aware about logical reasoning concept? *
+ Yes
+No
+Have you solved picture based logical reasoning questions? *
+ Yes
+No
+Did you take initiative to attend maximum number of training programs? *
+ Yes
+No
+Did you attend all 3 mandatory training courses organised by LPF? *
+ Yes
+No
+Did you attend training sessions other than the 3 mandatory ones? *
+ Yes
+No
+Which training session / activity was beneficial to you for personal development? *
+ 
+Please rate your ability to use computers on a scale of 1 to 5. (1 is high and 5 is low) *
+ 1
+2
+3
+4
+5
+Do you use computer to make reports or projects? *
+ Yes
+No
+Do you know about the software Microsoft Word (MS Word)? *
+ Yes
+No
+Do you know about the application Microsoft Excel (MS Office)? *
+ Yes
+No
+Did you learn any computer skills, languages or softwares that will help you in your career? *
+ Yes
+No
+Do you have a personal email account? *
+ Yes
+No
+How often do you access your mails? *
+ Daily
+Once in 2 - 3 days
+Once in a week
+Once in two weeks
+Once in a month
+Do you surf internet? *
+ Yes
+No
+How has your relationship with LPF helped you till now? *
+
+Would you like to continue your relationship with LPF further? *
+ Yes
+No
+Have you thought of any community engagement activities / volunteering activity? *
+ Yes
+No
+Do you share your skill sets with your juniors? *
+ Yes
+No

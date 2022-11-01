@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.io.*;
+class DivException
+{
+public static void main(String args[])
+              {
+		int a,b,c;
+		a=20;
+		b=0;
+	try
+	{
+
+		c=a/b;
+		System.out.println("division is:"+c);
+	}
+	catch(ArithmeticException e)
+	{
+		
+		System.out.println("enter other no");
+		Scanner sc=new Scanner(System.in);
+		b=sc.nextInt();
+		c=a/b;
+		System.out.println("c :"+c);
+             		System.out.println("exception is"+e.getMessage());
+	}
+            }
+}

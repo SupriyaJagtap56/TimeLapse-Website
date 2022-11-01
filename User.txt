@@ -1,0 +1,29 @@
+import java.io.*;
+class WrongException extends Exception
+{
+	WrongException(String s)
+	{
+	super(s);
+	}
+}
+class Input
+{
+	void method() throws WrongException
+	{
+	throw new WrongException("wrong input");
+	}
+}
+class UserException
+{
+	public static void main(String args[])
+	{
+		try
+		{
+		new Input().method();
+		}
+		catch(WrongException e)
+		{
+		System.out.println(e.getMessage());
+		}
+	}
+}
